@@ -29,18 +29,23 @@
 						margin:					0;
 						padding:				0;
 						height:					100%;
-						overflow:				hidden;
 					}
+		@media (max-aspect-ratio: 210/100)
+				{
+		body		{	overflow:				hidden;					}
+				}
 		main		{	text-align:				center;					}
 		h1			{	text-align:				center;					}
 		h1			{	text-shadow:			4px 4px 8px #333333;	}
 		footer		{	text-align:				center;					}
-		footer		{	position:				absolute;				}
-		footer		{	bottom:					0;						}
 		footer		{	width:					100%;					}
 		footer		{	color:					#E0E0E0;				}
-	/*	footer		{	background-color:		limegreen;				}	*/
-
+		@media (max-aspect-ratio: 210/100)
+				{
+		footer		{	position:				absolute;				}
+		footer		{	bottom:					0;						}
+				}
+	}
 		a:link		{	color:					white;					}
 		a:visited	{	color:					white;					}
 		a:link		{	text-shadow:			2px 2px 4px #222222; 	}
@@ -73,7 +78,8 @@ Apps & Programming
 		2024-09-27<br>
 	</div>
 
-	<br><br><br><br>
+<!--	<br><br><br><br> -->
+	<br><br>
 </main>
 	<!--src/src/pt/index-body.x ) END -->
 	<!--src/src/pt/footer.x BEGIN ( -->
